@@ -1,13 +1,20 @@
 import React from 'react';
-import TestConnection from './TestConnection';
+import MeetingForm from './MeetingForm';
+import Register from './Register';
+import Login from './Login';
+import MeetingManager from './MeetingManager';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <TestConnection />
+      <h1>Meeting Scheduler</h1>
+      <Register />
+      <Login />
+      <MeetingManager />
+      <MeetingForm />
     </div>
   );
 }
- 
+
 export default App;
